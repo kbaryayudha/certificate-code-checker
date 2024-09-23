@@ -1,0 +1,84 @@
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 24px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input[type="text"] {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    color: #555;
+}
+
+input[readonly] {
+    color: rgb(143, 138, 138);
+}
+
+.radio_group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
+
+.radio_group input[type="radio"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.radio_group label {
+    margin: 0;
+}
+
+form label {
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+
+.input_kode, .input_nama, .input_keterangan {
+    margin-bottom: 20px;
+}
+
+.button_submit {
+    text-align: center;
+}
+
+.button_submit button {
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100px;
+}
+
+.button_submit button:hover {
+    background-color: #555;
+}

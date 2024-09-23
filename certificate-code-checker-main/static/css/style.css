@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    overflow: auto;
+}
+header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+.logo img {
+    flex: 1;
+    width: 100px;
+    height: 50px;
+}
+.company_name {
+    flex: 2;
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.company_name .pt{
+    color: red;
+}
+
+.company_name .nama{
+    color: black;
+}
+
+header a {
+    color: black;
+    font-size: 50px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    transition: color 0.5;
+    margin-right: 30px;
+}
+
+.btn-login {
+    font-size: 15px;
+    text-decoration: none;
+    background-color: black;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    height: 30px;
+    padding: 5px 10px;
+}
+
+.btn-login i {
+    font-size: 20px;
+    margin-right: 4px;
+}
+
+header a:hover {
+    color: rgb(140, 153, 153);
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.left_side {
+    width: 50%;
+}
+
+.right_side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.office_address .one,
+.office_address .two,
+.office_address .three,
+.contact .telp,
+.contact .email {
+    display: flex;
+    margin-bottom: 20px;
+}
+.contact {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.office_address {
+    width: 60%;
+}
+
+footer .office_address p, 
+footer .contact p {
+    color: white;
+}
+
+footer i {
+    color: red;
+    margin-right: 15px;
+}
+
+footer .coppyright {
+    color: red;
+    text-align: right;
+    width: 100%;
+    margin-right: 20px;
+    margin-top: 50px;
+}
